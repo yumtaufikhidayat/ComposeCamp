@@ -66,7 +66,7 @@ fun BusinessCardApp(modifier: Modifier = Modifier) {
 @Composable
 fun CardNameTitle(name: String, title: String, modifier: Modifier = Modifier) {
     Column(
-        verticalArrangement  = Arrangement.Center,
+        verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally,
         modifier = Modifier
     ) {
@@ -101,10 +101,10 @@ fun AccountInfo(
     modifier: Modifier = Modifier
 ) {
     Column(
-        verticalArrangement  = Arrangement.Center,
+        verticalArrangement = Arrangement.Center,
         modifier = Modifier
     ) {
-        Row{
+        Row {
             Icon(
                 painter = painterResource(id = R.drawable.ic_phone),
                 contentDescription = "Phone",
