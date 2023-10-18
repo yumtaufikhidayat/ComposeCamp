@@ -50,7 +50,10 @@ fun BusinessCardApp(modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally,
     ) {
-        CardNameTitle(name = "Jennifer Doe", title = "Android Developer Extraordinaire")
+        CardNameTitle(
+            name = "Jennifer Doe",
+            title = "Android Developer Extraordinaire"
+        )
         Spacer(modifier = Modifier.padding(top = 36.dp))
         AccountInfo(
             phoneNumber = "+11 (123) 444 555 666",
